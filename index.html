@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fredoka+One&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <title>Friend portfolio</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Header -->
+      <section class="header">
+        <div class="page__logo">
+          <img class="logo__image" src="./images/logo.jfif" />
+          <div class="page__name">Friend Portfolio</div>
+        </div>
+        <div class="navbar__toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+          <ul class="nav__list">
+            <li class="nav__item active" id="home-section">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item" id="about-section">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item nav__subnav" id="talent-section">
+              <a href="#" class="nav__link">Talent</a>
+              <ul class="subnav">
+                <li class="subnav__item">
+                  <a href="#cooking" class="subnav__link">Cooking</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#drawing" class="subnav__link">Drawing</a>
+                </li>
+                <li class="subnav__item">
+                  <a href="#" class="subnav__link">Singing</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item" id="contact-section">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+      </section>
+      <!-- End header -->
+
+      <!-- Catalog -->
+      <section class="catalog">
+        <div class="catalog__intro" id="home">
+          <h1 class="catalog__intro--name text-large">Bui Huyen Trang</h1>
+          <p class="catalog__intro--information">
+            A cute Sagittarius girl with eyes that couldn't be more attractive,
+            1 meter 63 cm tall and loves beauty
+          </p>
+          <a
+            class="btn btn-white btn-large text-bold"
+            href="https://www.instagram.com/berrycheese_/"
+            target="_blank"
+            >Her Instagram</a
+          >
+        </div>
+        <div class="catalog__card">
+          <img
+            src="./images/card_catalog.jpg"
+            alt="catalog card"
+            class="catalog__card--img"
+          />
+        </div>
+      </section>
+      <!-- End catalog -->
+
+      <!-- Introduce -->
+      <section class="introduce outer__container" id="about">
+        <div class="content__container">
+          <div class="introduce__left">
+            <h2 class="introduce__title">
+              Purpose <span class="text-thin">of this portfolio template</span>
+            </h2>
+            <p class="introduce__detail--left">
+              I built this template with the purpose of practicing my interface
+              design skills, and also to better understand my friends. All
+              information and photos on the interface are taken on the personal
+              blog of my friend -
+              <span class="text-bold">Bui Huyen Trang</span>, and of course I
+              asked my friend's permission before taking the information to
+              build this interface.
+            </p>
+            <a
+              class="btn btn-black btn-small btn-square text-bold"
+              href="https://www.instagram.com/dy.khan/"
+              target="_blank"
+              >My Instagram</a
+            >
+          </div>
+          <div class="introduce__right">
+            <p class="author text-bold">- Dy.khan -</p>
+            <p class="introduce__detail--right">
+              인터페이스 디자인 기술을 연습하고 친구들을 더 잘 이해하기 위해 이
+              템플릿을 만들었습니다. 인터페이스의 모든 정보와 사진은 내 친구
+              <span class="text-bold">Bui Huyen Trang</span> 의 개인 블로그에서
+              가져왔으며 물론 이 인터페이스를 구축하기 위해 정보를 가져오기 전에
+              친구의 허락을 구했습니다
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Introduce -->
+
+      <!-- Photograph -->
+      <section class="photograph outer__container">
+        <div class="content__container">
+          <div class="photograph__left">
+            <h1 class="photograph__intro text-large">
+              hi, i am&nbsp;<span class="text-bold">Trang</span>
+            </h1>
+            <img src="./images/photo1.jpg" class="photograph__img" />
+          </div>
+          <div class="photograph__right">
+            <img src="./images/photo2.jpg" class="photograph__img" />
+            <div class="h-400 photograph__right--bottom">
+              <p class="photograph__note">
+                안녕하세요 <span class="text-bold">berrycheese_</span>입니다
+                <!-- Images from  -->
+              </p>
+              <p>
+                <a
+                  href="https://www.instagram.com/berrycheese_/"
+                  class="btn btn-medium btn-black btn-square text-bold"
+                  target="_blank"
+                  >More</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End photograph -->
+
+      <!-- University -->
+      <section class="university outer__container">
+        <div class="content__container">
+          <div class="university__left">
+            <h2 class="text-very-large text-thin text-right">VNU</h2>
+            <h2 class="text-thin text-large text-right">International</h2>
+            <h2 class="text-very-large text-bold text-right">School</h2>
+          </div>
+          <div class="university__right">
+            <img
+              src="./images/Logo VNU-IS_VN.jpg"
+              alt="logo university"
+              class="university__logo--img"
+            />
+            <p class="university__detail">
+              Trang is currently a fourth-year student majoring in accounting,
+              analysis and auditing at
+              <span class="text-bold"
+                >International School - Hanoi National University</span
+              >. At the same time, she is also the founder and president of the
+              ISketch - Artistry club of the school. Her school GPA was never
+              less than 3.8. She's good, isn't she?
+            </p>
+            <p>
+              <a
+                href="https://www.facebook.com/huyentrang.bui.56211"
+                class="btn btn-medium btn-solid-black btn-square text-bold"
+                target="_blank"
+                >More</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End university -->
+
+      <!-- Art -->
+      <section class="art" id="drawing">
+        <div class="art__left">
+          <div class="art__left--container">
+            <p class="art__description">
+              Look at the sketches on the right, they are all sketches by
+              <span class="text-bold">berrycheese_ - Bui Huyen Trang</span>.
+              Beautiful isn't it? Her hobby is drawing kpop idols. And with her
+              skillful hands, she did it very well. Visit her profile to see
+              more of her drawings, and guess who she's drawn.
+            </p>
+            <a
+              href="https://www.instagram.com/berrycheese_/"
+              class="btn btn-small btn-white btn-square text-bold"
+              target="_blank"
+              >More</a
+            >
+          </div>
+        </div>
+        <div class="art__right">
+          <div class="art__right--container">
+            <ul class="art__slide">
+              <li class="art__slide--item slide-item-1">
+                <img
+                  src="./images/art__img1.jpg"
+                  alt="art image"
+                  class="art__slide--img"
+                />
+              </li>
+              <li class="art__slide--item slide-item-2">
+                <img
+                  src="./images/art__img2.jpg"
+                  alt="art image"
+                  class="art__slide--img"
+                />
+              </li>
+              <li class="art__slide--item slide-item-3">
+                <img
+                  src="./images/art__img3.jpg"
+                  alt="art image"
+                  class="art__slide--img"
+                />
+              </li>
+              <li class="art__slide--item slide-item-4">
+                <img
+                  src="./images/art__img4.jpg"
+                  alt="art image"
+                  class="art__slide--img"
+                />
+              </li>
+              <li class="art__slide--item slide-item-5">
+                <img
+                  src="./images/art__img5.jpg"
+                  alt="art image"
+                  class="art__slide--img"
+                />
+              </li>
+            </ul>
+            <div class="art__btn--next"><div class="arrow-right"></div></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Art -->
+
+      <!-- Foody -->
+      <section class="foody" id="cooking">
+        <div class="foody__top">
+          <div class="foody__introduction">
+            <p>don't know what to cook?</p>
+            <p>go to berrycheese_'s feed now</p>
+            <p>she will suggest you</p>
+          </div>
+          <p class="foody__btn">
+            <a
+              href="https://www.instagram.com/eatclean_w_berrin/"
+              class="btn btn-large btn-solid-black btn-square text-bold"
+              target="_blank"
+              >Visit here</a
+            >
+          </p>
+        </div>
+        <div class="foody__bottom outer__container">
+          <div class="foody__btn--left"><div class="arrow-left"></div></div>
+          <div class="foody__slide">
+            <div class="foody__slide--container">
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-1.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Mi Udon xao thit</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-2.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Toast chuoi dau</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-3.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Bun lut tron</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-4.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Tiramisu</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-5.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Com trung cha uc ga</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-6.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Thit bo sot me</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-7.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Com rang kim chi</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+              <div class="foody__slide--card">
+                <img
+                  src="./images/foody-8.jpg"
+                  alt="food pic"
+                  class="foody__slide--img"
+                />
+                <p class="foody__slide--title">Canh Doenjjang</p>
+                <p class="foody__slide--sign">@eatclean_w_berrin</p>
+              </div>
+            </div>
+          </div>
+          <div class="foody__btn--right"><div class="arrow-right"></div></div>
+        </div>
+      </section>
+      <!-- End foody -->
+
+      <!-- Footer -->
+      <section class="footer" id="contact">
+        <div class="footer__top">
+          <p class="footer__epilogue">
+            There are so many more interesting things about Trang that I cannot
+            mention them all here. If you want to know more about Trang or
+            simply want to see Trang every day, follow the links below
+          </p>
+          <ul class="footer__navbar">
+            <li class="footer__navbar--item">
+              <a
+                href="https://www.facebook.com/huyentrang.bui.56211"
+                target="_blank"
+                class="footer__link"
+              >
+                <img src="./images/facebook.png" alt="" class="footer__logo" />
+              </a>
+            </li>
+            <li class="footer__navbar--item">
+              <a
+                href="https://www.instagram.com/berrycheese_/"
+                target="_blank"
+                class="footer__link"
+              >
+                <img src="./images/instagram.png" alt="" class="footer__logo" />
+              </a>
+            </li>
+            <li class="footer__navbar--item">
+              <a
+                href="https://www.instagram.com/berrycheese_/"
+                target="_blank"
+                class="footer__link"
+              >
+                <img src="./images/email.png" alt="" class="footer__logo" />
+              </a>
+            </li>
+            <li class="footer__navbar--item">
+              <a
+                href="https://www.instagram.com/berrycheese_/"
+                target="_blank"
+                class="footer__link"
+              >
+                <img src="./images/linkedin.png" alt="" class="footer__logo" />
+              </a>
+            </li>
+            <li class="footer__navbar--item">
+              <a
+                href="https://www.youtube.com/channel/UCn258L7aa198CDAs17q3SmQ"
+                target="_blank"
+                class="footer__link"
+              >
+                <img src="./images/youtube.png" alt="" class="footer__logo" />
+              </a>
+            </li>
+          </ul>
+          <p class="footer__source">Image by @berrycheese_</p>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">Copyright © 2022 By Pham Duy Khanh</p>
+        </div>
+      </section>
+      <!-- End footer -->
+    </div>
+    <script>
+      // ========== Active Menu Item ==========================
+      function activeMenu() {
+        const activeItem = document.querySelector(".active");
+        const homeItem = document.querySelector("#home-section");
+        const aboutItem = document.querySelector("#about-section");
+        const talentItem = document.querySelector("#talent-section");
+        const contactItem = document.querySelector("#contact-section");
+        let scrollPos = window.scrollY;
+        
+        if (scrollPos < 779) {
+          activeItem.classList.remove("active");
+          homeItem.classList.add("active");
+        } else if (scrollPos < 2800) {
+          activeItem.classList.remove("active");
+          aboutItem.classList.add("active");
+        } else if (scrollPos < 4400) {
+          activeItem.classList.remove("active");
+          talentItem.classList.add("active");
+        } else {
+          activeItem.classList.remove("active");
+          contactItem.classList.add("active");
+        }
+      }
+
+      window.addEventListener("scroll", activeMenu);
+
+      // ========== Window scrolling change menu =============
+      const menu = document.querySelector(".header");
+
+      function shrinkHeader() {
+        if (
+          document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80
+        ) {
+          menu.classList.add("shrink");
+        } else {
+          menu.classList.remove("shrink");
+        }
+      }
+
+      window.addEventListener("scroll", shrinkHeader);
+
+      // ============ Slide moving ==================
+      const artSlideItems = document.querySelectorAll("[class*='slide-item-']");
+      const nextSlideBtn = document.querySelector(".art__btn--next");
+
+      function movePicture() {
+        for (const item of artSlideItems) {
+          var itemNumber = item.className
+            .split(" ")
+            .filter(function (subClass) {
+              return subClass.includes("slide-item-");
+            })[0]
+            .split("-")[2];
+
+          var newClasses = item.className
+            .split(" ")
+            .filter(function (subClass) {
+              return !subClass.includes("slide-item-");
+            });
+
+          var newNumberClass = "";
+
+          if (Number(itemNumber) == 1) {
+            newNumberClass = "slide-item-" + artSlideItems.length;
+          } else {
+            newNumberClass = "slide-item-" + (Number(itemNumber) - 1);
+          }
+
+          newClasses.push(newNumberClass);
+          item.className = newClasses.join(" ");
+
+          // console.log(item.className);
+        }
+        // console.log("END");
+      }
+
+      nextSlideBtn.addEventListener("click", movePicture);
+
+      // =================== Food slide moving ======================
+      const foodBtnLeft = document.querySelector(".foody__btn--left");
+      const foodBtnRight = document.querySelector(".foody__btn--right");
+
+      const slideContainer = document.querySelector(".foody__slide--container");
+      const slideDisplay = document.querySelector(".foody__slide");
+
+      var restWidth = 0;
+      var moveWidth = 0;
+
+      function moveFoodRight() {
+        let moveUnit = 330;
+        if(window.innerWidth <= 739){
+          moveUnit = 280;
+        }
+        const displayWidth = slideDisplay.offsetWidth;
+        const slideWidth = slideContainer.offsetWidth;
+        restWidth = slideWidth - displayWidth + moveWidth;
+        if (restWidth < moveUnit) {
+          moveWidth = moveWidth - restWidth;
+          let transformStyle = "translateX(" + moveWidth + "px)";
+          slideContainer.style.transform = transformStyle;
+        } else {
+          moveWidth = moveWidth - moveUnit;
+          let transformStyle = "translateX(" + moveWidth + "px)";
+          slideContainer.style.transform = transformStyle;
+        }
+      }
+
+      function moveFoodLeft() {
+        let moveUnit = 330;
+        if(window.innerWidth <= 739){
+          moveUnit = 280;
+        }
+        if (moveWidth < -moveUnit) {
+          moveWidth = moveWidth + moveUnit;
+          let transformStyle = "translateX(" + moveWidth + "px)";
+          slideContainer.style.transform = transformStyle;
+        } else {
+          moveWidth = 0;
+          let transformStyle = "translateX(" + moveWidth + "px)";
+          slideContainer.style.transform = transformStyle;
+        }
+      }
+
+      foodBtnRight.addEventListener("click", moveFoodRight);
+      foodBtnLeft.addEventListener("click", moveFoodLeft);
+
+      // ================= Toggle mobile menu ====================
+      const toggleMenuBtn = document.querySelector(".navbar__toggle");
+      const menuMobile = document.querySelector(".nav__list");
+
+      function toggleMenuMobile() {
+        if (
+          document.body.scrollTop < 80 &&
+          document.documentElement.scrollTop < 80
+        ) {
+          menu.classList.toggle("shrink");
+        }
+        toggleMenuBtn.classList.toggle("is-open");
+        menuMobile.classList.toggle("show");
+      }
+
+      toggleMenuBtn.addEventListener("click", toggleMenuMobile);
+    </script>
+  </body>
+</html>
