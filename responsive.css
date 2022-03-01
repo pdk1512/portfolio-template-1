@@ -145,8 +145,6 @@
         justify-content: flex-end;
     }
 
-    
-
     .art__description {
         width: 80%;
     }
@@ -179,6 +177,14 @@
 
 /* Mobile */
 @media screen and (max-width: 46.1875em) {
+    .text-large {
+        font-size: 2.5rem;
+    }
+
+    .page__name {
+        font-size: 1.4rem;
+    }
+
     .catalog__card {
         display: none;
     }
@@ -223,6 +229,10 @@
         display: none;
     }
 
+    .university__right {
+        padding-left: 0;
+    }
+
     .art {
         flex-direction: column;
         min-height: 800px;
@@ -235,35 +245,40 @@
     }
 
     .art__slide--item {
-        width: 300px;
-        height: 300px;
+        width: 240px;
+        height: 240px;
     }
 
     .slide-item-1 {
-        left: -460px;
+        left: -350px;
+        top: -160px
     }
 
     .slide-item-2 {
-        left: -440px;
-        top: -200px;
+        left: -340px;
+        top: -150px;
     }
 
     .slide-item-3 {
-        left: -420px;
-        top: -180px;
+        left: -330px;
+        top: -140px;
     }
 
     .slide-item-4, .slide-item-5 {
-        left: -400px;
-        top: -160px;
+        left: -320px;
+        top: -130px;
     }
 
     .art__btn--next {
-        left: -80px;
+        left: -70px;
+    }
+
+    .foody__top {
+        padding: 8rem 2rem;
     }
 
     .foody__introduction p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .foody__slide {
